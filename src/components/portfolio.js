@@ -1,19 +1,17 @@
 import React from 'react'
 import portfolioStyles from './portfolio.module.scss';
+import CalcImage from '../images/calculator.png';
 
 const Portfolio = () => {
     return (
         <>
         
+        
         <div className={portfolioStyles.portfolioContainer}>
             
             <div className={portfolioStyles.portfolioDiv}>
+               <center> <img src={CalcImage} alt="calculator image" /></center>
                
-               <ul>
-                   <li>
-                       Tech Used: React, SemanticUI
-                   </li>
-               </ul>
             </div>
             <div className={portfolioStyles.portfolioDiv}>
 
