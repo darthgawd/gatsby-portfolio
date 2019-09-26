@@ -2,9 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Rye&display=swap');
 
 .header-container {
+    max-width: 100%;
    display: flex;
    justify-content: space-around;
    border-bottom: 10px dashed #ff6550;
+}
+@media only screen and (max-width: 868px) {
+    .header-container {
+        display: block;
+    }
+    .brand {
+        max-width: 100%;
+    }
+
+    
 }
 
 
@@ -37,3 +48,8 @@
     width: 80px;
     height: 80px;
 }
+
+
+// Media Queries
+
+

@@ -4,14 +4,25 @@
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 868px) {
+    .portfolio-container {
+        max-width: 100%;
+        display: block;
+    }
+    
+}
 .portfolio-div {
     background: #3A3042;
-    height: 400px;
+    height: 480px;
     width: 400px;
     border: 5px dotted white;
+    border-radius: 30px;
 }
 
 img {
-    width: 280px;
-    height: 300px;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    width: 220px;
+    height: 290px;
+    border-radius: 10px;
 }

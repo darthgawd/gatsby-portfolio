@@ -10,7 +10,8 @@ const Portfolio = () => {
         <div className={portfolioStyles.portfolioContainer}>
             
             <div className={portfolioStyles.portfolioDiv}>
-               <center> <img src={CalcImage} alt="calculator image" /></center>
+                <img src={CalcImage} alt="calculator image" />
+                <div style={{background: 'skyblue', border: '5px solid yellow', width: '50%', height: '50%', margin: '0 auto'}} > hello world/</div>
                
             </div>
             <div className={portfolioStyles.portfolioDiv}>
