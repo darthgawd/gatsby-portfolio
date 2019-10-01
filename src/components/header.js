@@ -1,6 +1,6 @@
 import React from 'react'
 import headerStyles from './header.module.scss';
-import Typed from 'typed.js';
+import Typed from 'react-typed';
 import GitHubLogo from '../images/github.png';
 import TwitterLogo from '../images/twitter.png';
 import LinkedInLogo from '../images/linkedin.png';
@@ -8,18 +8,19 @@ import EmailLogo from '../images/email.png';
 
 
 const Header = () => {
-
-    // var type = new Typed('#typed', {
-    //     stringsElement: '#typed-strings'
-    //   });
-      
-    // const typed = new Typed(".element", options);
+  
     return (
         <>
+         <div>
+                {/* <Typed
+                    strings={['Here you can find anything']}
+                    typeSpeed={40} /> */}
+                <br/>
+            </div>
         <div className={headerStyles.headerContainer}>
         <div className={headerStyles.brand}>
-     
-            <div className={headerStyles.intro}>Hello, I'm</div>
+           
+            <div className={headerStyles.intro}></div>
             <div className={headerStyles.name}>   RON HUGHES </div>
             <div className={headerStyles.intro}>Full-Stack Web Developer </div>
         
@@ -31,6 +32,9 @@ const Header = () => {
             <img src={EmailLogo} />
             </div>
         </div>
+
+       
+     
         </>
     )
 }
