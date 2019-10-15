@@ -3,35 +3,48 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 200px auto; 
+    margin: 20px auto; 
 
 
 }
 
-
-.menu-span {
-    display: inline-block;
-    margin-left: 20px;
-    width: 200px;
-    padding: 18px;
-    background-color: #041C37;
-
+.nav-main {
+    display: flex;
+    flex-direction: column;
 }
+
 
 
 
 .nav {
-    align-items: center;
-    margin: 0px auto; 
-    margin-bottom: 50px;
+    display: flex;
     width: 100%;
     color: white; 
     font-family: Aldrich;
     font-size: 2.5rem;  
+    
 }
+
+
+.menu-span {
+    margin-left: 20px;
+    width: 200px;
+    padding: 18px;
+    background-color: #041C37;
+    a {
+    text-decoration: none;
+    cursor: -webkit-grabbing; 
+    cursor: grabbing;
+    }
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
 .about {
     color: white;
-    margin: 0px auto;
     width: 70rem;
     max-width: 100%;
     height: 40rem;;

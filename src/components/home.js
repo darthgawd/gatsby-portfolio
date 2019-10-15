@@ -2,19 +2,9 @@ import React, { useState, useEffect } from "react"
 import homeStyles from "./home.module.scss"
 import HandsomeMan from "../images/handsome-man.png"
 import posed from "react-pose"
+import { Link } from 'gatsby';
 
 const About = () => {
-  // const [isVisible, setIsVisible] = useState(true)
-
-  // useEffect(() => {
-  //   setInterval(() => {
-  //   setIsVisible(!isVisible)
-  //   }, 2000);
-  // }, [])
-  // const Box = posed.div({
-  //   visible: { scale: 1.5},
-  // });
-
   const Menu = posed.div({
     pressable: true,
     init: { scale: 1 },
@@ -25,17 +15,15 @@ const About = () => {
       <div className={homeStyles.center}>
         <div className={homeStyles.navMain}>
           <nav className={homeStyles.nav}>
-            <Menu className={homeStyles.menuSpan}>Home</Menu>
-            <Menu className={homeStyles.menuSpan}>About</Menu>
-            <Menu className={homeStyles.menuSpan}>Portfolio</Menu>
+            <Menu className={homeStyles.menuSpan}>
+              <Link to="/"> Home</Link>
+            </Menu>
+            <Menu className={homeStyles.menuSpan}><Link to="about">About</Link></Menu>
+            <Menu className={homeStyles.menuSpan}><Link to="portfolio">Portfolio</Link></Menu>
             <Menu className={homeStyles.menuSpan}>Contact</Menu>
           </nav>
         </div>
-        <div>
-          <div className={homeStyles.about}>
-            <p>Hello World</p>
-          </div>
-        </div>
+        <div>Hell World</div>
       </div>
     </>
   )

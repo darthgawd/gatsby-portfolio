@@ -1,18 +1,22 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import topStyles from "./top.module.scss";
 import Typist from "react-typist"
 import "react-typist/dist/Typist.css"
 
 const Top = () => {
 
+  const curs = {
+    show: false
+  }
 
     return (
         <div className={topStyles.top}>
-          <Typist avgTypingDelay={129}>
+          <Typist avgTypingDelay={129} cursor={curs}>
             Ron Hughes
-            <Typist.Delay ms={500} />
-            <br /> Full-Stack Web Developer.
-          </Typist>
+            </Typist>
+            
+            <Typist startDelay={1200} cursor={curs} avgTypingDelay={120}> Full-Stack Web Developer.</Typist>
+      
         </div>
     )
 }

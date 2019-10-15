@@ -1,7 +1,11 @@
 .top {
+    margin-top: 0 auto;
+
+    background: #342232;
+    height: 14rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
     color: white;
     font-size: 5rem;
     font-family: Aldrich;
