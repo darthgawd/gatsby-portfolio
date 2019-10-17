@@ -12,10 +12,8 @@ const Top = () => {
     return (
         <div className={topStyles.top}>
           <Typist avgTypingDelay={129} cursor={curs}>
-            Ron Hughes
-            </Typist>
-            
-            <Typist startDelay={1200} cursor={curs} avgTypingDelay={120}> Full-Stack Web Developer.</Typist>
+            Ron Hughes <br />
+        </Typist>
       
         </div>
     )
