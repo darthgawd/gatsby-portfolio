@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import Header from '../components/header';
 import Home from '../components/home';
 import Top from '../components/top';
+import './index.scss'
 
 
 
