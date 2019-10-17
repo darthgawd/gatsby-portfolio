@@ -12,8 +12,9 @@ const IndexPage = () => {
     return(
         <>
         <Layout>
-        <Header />
         <Top />
+        <Header />
+        
         <Home />
         </Layout>
         </>

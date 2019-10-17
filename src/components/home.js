@@ -23,7 +23,7 @@ const About = () => {
             <Menu className={homeStyles.menuSpan}>Contact</Menu>
           </nav>
         </div>
-        <div>Hell World</div>
+        <div>HI! I am Ron Hughes and I am a Full-Stack Web Developer</div>
       </div>
     </>
   )
