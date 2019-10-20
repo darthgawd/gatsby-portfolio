@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Unkempt&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rye&display=swap');
 
-.top-container {
+.footer-container {
    display: flex;
-   width: 100%;
-   height: 49px;
-    flex-direction: row-reverse;
-   background: #04395E;
    position: fixed;
- 
-   img {
-       height: 30px;
-       width: 30px;
-   }
+   bottom: 0;
+   width: 100%;
+   height: 59px;
+   justify-content: space-around;
+   background: #04395E;
 }
 @media only screen and (max-width: 868px) {
     .top-container {

@@ -1,6 +1,10 @@
+
 .portfolio-container {
-    margin-top: 5rem;
+    width: 100%;
+    height: 100vh;
+    background: rgb(16, 15, 19);
     display: flex;
+    flex-flow: wrap;
     justify-content: space-around;
 }
 
@@ -9,16 +13,15 @@
         max-width: 100%;
         display: flex;
         flex-direction: column;
+        
     }
     
 }
 .portfolio-div {
     background: #3A3042;
     max-width: 100%;
-    height: 480px;
-    width: 400px;
-    border: 5px dotted white;
-    border-radius: 30px;
+    height: 20rem;
+    width: 60rem;
 }
 
 img {

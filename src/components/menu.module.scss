@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    width: 100%;
+    color: white; 
+    font-family: BenchNine;
+    font-size: 2.5rem;  
+    margin-top: 50px;
+    margin-left: -23px;
+   
+}
+
+
+.menu-span {
+    margin-left: 20px;
+    text-align: center;
+    width: 300px;
+    padding: 18px;
+    background-color: #041C37;
+    a {
+    text-decoration: none;
+    cursor: -webkit-grabbing; 
+    cursor: grabbing;
+    }
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.menu-span:hover, menu-span:focus {
+    border: 2px solid gold;
+    -webkit-box-shadow: 1px 48px 86px -43px rgba(105,69,196,1);
+-moz-box-shadow: 1px 48px 86px -43px rgba(105,69,196,1);
+box-shadow: 1px 48px 86px -43px rgba(105,69,196,1);
+    transition: box-shadow 2050ms;
+}
+

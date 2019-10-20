@@ -1,19 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css?family=BenchNine&display=swap');
 
-.header {
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin-left: 100px;
     margin-top: 100px;
-
-    background: red;
-    height: 14rem;
-    display: flex;
-    flex-direction: row;
-    // align-items: center;
-    color: white;
-    font-size: 5rem;
-    font-family: Aldrich;
-    justify-content: center;
-    p {
-        margin-top: 40px;
-    }
+  }
+  .img-div{
+    margin-right: 100px;
+  }
 }
 
+.header {
+    margin-top: 200px;
+    background: rgb(16, 15, 19);
+    height: 14rem;
+    display: flex;
+    // flex-direction: row;
+    // align-items: center;
+    color: #6945c4;
+    font-size: 13rem;
+    font-family: BenchNine;
+    justify-content: center;
+    margin-bottom: -150px;
+
+    span {
+        position: relative;
+        font-size: 13rem;
+        &:hover {
+            transition: all 2500ms;
+            transition-delay: 250ms;
+            color: white;
+            text-shadow: gold;
+            text-shadow: 2px 2px 7px #00CE88;
+        }
+      }
+      span:after {
+        position: absolute;
+        content: attr(content);
+        top: 150px;
+        left: 0;
+        -webkit-transition: all 750ms;
+        -moz-transition: all 750ms;
+        -o-transition: all 750ms;
+        transition: all 750ms;
+        -webkit-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+        transform-origin: bottom left;
+      }
+      span:hover:after {
+        -webkit-transform: skew(100deg, 25deg);
+        -ms-transform: skew(100deg, 25deg);
+        transform: skew(-20deg, 25deg);
+        text-shadow: 2px 2px 7px #00CE88;
+
+      }
+   
+}
