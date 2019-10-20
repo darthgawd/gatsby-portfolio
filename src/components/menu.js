@@ -17,7 +17,7 @@ const Menu = () => {
               <Link to="/"> Home</Link>
             </Menu>
             <Menu className={menuStyles.menuSpan}> <Link to="portfolio">Portfolio</Link></Menu>
-            <Menu className={menuStyles.menuSpan}>Contact</Menu>
+            <Menu className={menuStyles.menuSpan}>Resume</Menu>
           </div>
     </>
   )

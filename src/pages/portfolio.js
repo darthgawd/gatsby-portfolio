@@ -7,9 +7,11 @@ const Portfolio = () => {
 
       <div className={portfolioStyles.portfolioContainer}>
 
-        <div className={portfolioStyles.pImage}></div>
+        <div className={portfolioStyles.pImage}>
+            
+        </div>
 
-        <div className={portfolioStyles.pDescription}>Hello World</div>
+    
         
         </div>
       

@@ -7,9 +7,14 @@
   img {
     margin-left: 100px;
     margin-top: 100px;
+    &:hover {
+      transform: rotate(720deg) scale(.9);
+      transition: all 4s;
+    }
   }
   .img-div{
     margin-right: 100px;
+   
   }
   // * {
   //   color: white;
@@ -33,7 +38,7 @@
         position: relative;
         font-size: 13rem;
         &:hover {
-            transition: all 2500ms;
+            transition: color 2500ms;
             transition-delay: 250ms;
             color: white;
             text-shadow: gold;
@@ -53,12 +58,22 @@
         -ms-transform-origin: bottom left;
         transform-origin: bottom left;
       }
-      span:hover:after {
-        -webkit-transform: skew(100deg, 25deg);
-        -ms-transform: skew(100deg, 25deg);
-        transform: skew(-20deg, 25deg);
-        text-shadow: 2px 2px 7px #00CE88;
+      // span:hover:after {
+      //   -webkit-transform: skew(100deg, 25deg);
+      //   -ms-transform: skew(100deg, 25deg);
+      //   transform: skew(-20deg, 25deg);
+      //   text-shadow: 2px 2px 7px #00CE88;
 
-      }
+      // }
    
 }
+
+// @media only screen and (max-width: 868px) {
+//   .portfolio-container {
+//       max-width: 100%;
+//       display: flex;
+//       flex-direction: column;
+      
+//   }
+  
+// }
