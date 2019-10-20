@@ -1,17 +1,21 @@
-import React from 'react'
-import portfolioStyles from './portfolio.module.scss';
-import CalcImage from '../images/calculator.png';
+import React from "react"
+import portfolioStyles from "./portfolio.module.scss"
 
 const Portfolio = () => {
-    return (
-        <>
+  return (
+    <><div className="react-transition scale-in-right" style={{animationDuration: '1s'}}>
+
+      <div className={portfolioStyles.portfolioContainer}>
+
+        <div className={portfolioStyles.pImage}></div>
+
+        <div className={portfolioStyles.pDescription}>Hello World</div>
         
-        
-        <div className={portfolioStyles.portfolioContainer}>
-       
-            </div>
-        </>
-    )
+        </div>
+      
+      </div>
+    </>
+  )
 }
 
-export default Portfolio 
+export default Portfolio

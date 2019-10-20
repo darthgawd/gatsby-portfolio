@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import menuStyles from "./menu.module.scss"
 import HandsomeMan from "../images/handsome-man.png"
 import posed from "react-pose"
-import { Link } from 'gatsby';
+import { Link } from "@reach/router";
 
 const Menu = () => {
   const Menu = posed.div({
@@ -16,7 +16,7 @@ const Menu = () => {
             <Menu className={menuStyles.menuSpan}>
               <Link to="/"> Home</Link>
             </Menu>
-            <Menu className={menuStyles.menuSpan}><Link to="/portfolio">Portfolio</Link></Menu>
+            <Menu className={menuStyles.menuSpan}> <Link to="portfolio">Portfolio</Link></Menu>
             <Menu className={menuStyles.menuSpan}>Contact</Menu>
           </div>
     </>
