@@ -13,6 +13,7 @@
     font-size: 2.5rem;  
     margin-top: 50px;
     margin-left: -23px;
+    position: fixed;
    
 }
 
@@ -34,10 +35,10 @@
     }
 }
 
-.menu-span:hover, menu-span:focus {
+.menu-span:hover, .menu-span:focus {
     -webkit-box-shadow: 1px 48px 86px -43px rgba(105,69,196,1);
 -moz-box-shadow: 1px 48px 86px -43px rgba(105,69,196,1);
 box-shadow: 1px 48px 86px -43px rgba(105,69,196,1);
-    transition: box-shadow 2050ms;
+   
 }
 

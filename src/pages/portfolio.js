@@ -3,7 +3,7 @@ import portfolioStyles from "./portfolio.module.scss"
 
 const Portfolio = () => {
   return (
-    <><div className="react-transition scale-in-right" style={{animationDuration: '1s'}}>
+    <><div className="react-transition scale-in-right" style={{animationDuration: '2s'}}>
 
       <div className={portfolioStyles.portfolioContainer}>
 
